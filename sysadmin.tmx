@@ -1,0 +1,5001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="Sisulizer" creationtoolversion="4.0.374" datatype="PlainText" segtype="sentence" o-tmf="LaProject" adminlang="en" srclang="*all*"/>
+  <body>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.EMAIL_SEND_TEST_FAIL">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.EMAIL_SEND_TEST_FAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sending the test email failed: {{error}}.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.EMAIL_SEND_TEST_SUCCESS">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.EMAIL_SEND_TEST_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sending the test email successfully executed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.EMAIL_SETTINGS_MODIFIED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.EMAIL_SETTINGS_MODIFIED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>The SMTP server configuration have been changed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.LAST_ORGANISATION_ADMIN_CANNOT_BE_DELETED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.LAST_ORGANISATION_ADMIN_CANNOT_BE_DELETED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User is the only administrator in some organisation and therefore cannot be deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.MODULE_ADDED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.MODULE_ADDED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module '{{module}}' has been added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.MODULE_DISABLED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.MODULE_DISABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module '{{module}}' has been disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.MODULE_ENABLED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.MODULE_ENABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module '{{module}}' has been activated.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.MODULE_MODIFIED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.MODULE_MODIFIED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module '{{module}}' has been modified.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.MODULE_REMOVED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.MODULE_REMOVED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module '{{module}}' has been deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_ADDED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_ADDED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation '{{organisation}}' has been added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_CANNOT_BE_DEPLOYED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_CANNOT_BE_DEPLOYED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation cannot be deployed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_DEPLOY_FAILED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_DEPLOY_FAILED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation deploy has failed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_DEPLOY_INPROGRESS">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_DEPLOY_INPROGRESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation deploy is in progress.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_DEPLOY_SUCCEEDED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_DEPLOY_SUCCEEDED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation has been deployed successfully.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_DISABLED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_DISABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation '{{organisation}}' has been disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_ENABLED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_ENABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation '{{organisation}}' has been activated.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_MODIFIED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_MODIFIED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation '{{organisation}}' has been modified.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ORGANISATION_REMOVED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ORGANISATION_REMOVED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation '{{organisation}}' has been deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ROLE_ADDED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ROLE_ADDED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role '{{role}}' has been added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ROLE_MODIFIED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ROLE_MODIFIED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role '{{role}}' has been modified.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.ROLE_REMOVED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.ROLE_REMOVED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role '{{role}}' has been deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.SMS_SEND_TEST_FAIL">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.SMS_SEND_TEST_FAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sending the test SMS failed: {{error}}.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.SMS_SEND_TEST_SUCCESS">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.SMS_SEND_TEST_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sending the test SMS successfully executed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.SMS_SETTINGS_MODIFIED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.SMS_SETTINGS_MODIFIED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>The SMTP server configuration have been changed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_ADDED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_ADDED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' has been added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_DISABLED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_DISABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' has been disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_ENABLED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_ENABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' has been activated.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_LOGGED_IN">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_LOGGED_IN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' logged in.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_LOGGED_IN_REMEMBERED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_LOGGED_IN_REMEMBERED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' logged in using keep me logged in.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_LOGGED_OUT">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_LOGGED_OUT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' logged out.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_MODIFIED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_MODIFIED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' has been modified.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_NOT_FOUND">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_NOT_FOUND</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>An unknown user '{{username}}' tried to login without success.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_REMOVED">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_REMOVED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' has been deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.AUDIT_KEYS.USER_WRONG_PASSWORD">
+      <prop type="context">sysadmin.json.AUDIT_KEYS.USER_WRONG_PASSWORD</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User '{{username}}' tried to login without success.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.CANCEL">
+      <prop type="context">sysadmin.json.CANCEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Cancel</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsTranslated</prop>
+        <seg>Annuler</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.CONFIRM">
+      <prop type="context">sysadmin.json.CONFIRM</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Confirm</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.CONTENT.HOME">
+      <prop type="context">sysadmin.json.CONTENT.HOME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.DEFAULT">
+      <prop type="context">sysadmin.json.DEFAULT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Default</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.DELETE">
+      <prop type="context">sysadmin.json.DELETE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>DELETE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.ERROR">
+      <prop type="context">sysadmin.json.ERROR</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HEADER.LANGUAGES.DEUTSCH">
+      <prop type="context">sysadmin.json.HEADER.LANGUAGES.DEUTSCH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Deutsch</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HEADER.LANGUAGES.ENGLISH">
+      <prop type="context">sysadmin.json.HEADER.LANGUAGES.ENGLISH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>English</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HEADER.LANGUAGES.FRANCAIS">
+      <prop type="context">sysadmin.json.HEADER.LANGUAGES.FRANCAIS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Français</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HEADER.LOGOUT">
+      <prop type="context">sysadmin.json.HEADER.LOGOUT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Logout</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HEADER.PROFILE">
+      <prop type="context">sysadmin.json.HEADER.PROFILE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>My profile</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HEADER.SWITCH_USER">
+      <prop type="context">sysadmin.json.HEADER.SWITCH_USER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Switch user</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HEADER.TITLE">
+      <prop type="context">sysadmin.json.HEADER.TITLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SAUTER Cloud Administration</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.HOME.TITLE">
+      <prop type="context">sysadmin.json.HOME.TITLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.MENU">
+      <prop type="context">sysadmin.json.MENU.MENU</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Menu</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.OVERVIEW.AUDIT_TRAIL">
+      <prop type="context">sysadmin.json.MENU.OVERVIEW.AUDIT_TRAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Audit trail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.OVERVIEW.AUDIT_TRAIL_AND_DEVICES">
+      <prop type="context">sysadmin.json.MENU.OVERVIEW.AUDIT_TRAIL_AND_DEVICES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Audit trail and Devices</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.OVERVIEW.DEVICES">
+      <prop type="context">sysadmin.json.MENU.OVERVIEW.DEVICES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Devices</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.OVERVIEW.LABEL">
+      <prop type="context">sysadmin.json.MENU.OVERVIEW.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Information</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.API_RESOURCES">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.API_RESOURCES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>API resources</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.CLIENT_APPLICATIONS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.CLIENT_APPLICATIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.EMAIL_SERVER_SETTINGS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.EMAIL_SERVER_SETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Email server settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.IDENTITY_SETTINGS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.IDENTITY_SETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Identity settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.LABEL">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.MODULES">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Modules</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.NETWORK_SETTINGS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.NETWORK_SETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Network settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.ORGANISATIONS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.ORGANISATIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisations</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.ORGANISATIONS_SETTINGS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.ORGANISATIONS_SETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisations settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.ROLES">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.ROLES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Roles</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.SMS_SERVER_SETTINGS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.SMS_SERVER_SETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMS server settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.USERS">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.USERS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Users</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.MENU.SETTINGS.USERS_AND_ROLES">
+      <prop type="context">sysadmin.json.MENU.SETTINGS.USERS_AND_ROLES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Users and Roles</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.NO_TABLE_RECORDS">
+      <prop type="context">sysadmin.json.NO_TABLE_RECORDS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>No data found</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.ACTION">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.ACTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Action</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_APPSERVICEPLAN_CREATED">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_APPSERVICEPLAN_CREATED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Resource app service plan created (4/5).</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_APPSERVICE_CREATED">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_APPSERVICE_CREATED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Resource app service created (5/5).</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_GROUP_CREATED">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_GROUP_CREATED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Resource group created (1/5).</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_SQLDATABASE_CREATED">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_SQLDATABASE_CREATED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Resource SQL database created (3/5).</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_SQLSERVER_CREATED">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.ACTION.RESOURCE_SQLSERVER_CREATED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Resource SQL server created (2/5).</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.1">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.1</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Critical</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.2">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.2</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.3">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.3</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Warning</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.4">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.4</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Informational</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.5">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.LEVEL.5</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Verbose</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.1">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.1</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Security action</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.2">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.2</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Users managment</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.3">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.3</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Network settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.4">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.4</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisations</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.5">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.CODE.TYPE.5</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Login</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.DATE">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.DATE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Date</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.LABEL">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Audit log</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.LEVEL">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.LEVEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Level</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.TYPE">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.TYPE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Type</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.AUDIT_LOG.USER">
+      <prop type="context">sysadmin.json.OVERVIEW.AUDIT_LOG.USER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.BUILD_IDENTIFIER">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.BUILD_IDENTIFIER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Build identifier</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.BUILD_NAME">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.BUILD_NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Build name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.FFID">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.FFID</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>FFID</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.HARDWARE_INDEX">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.HARDWARE_INDEX</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Hardware index</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.HOSTNAME">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.HOSTNAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Hostname</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.LABEL">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Devices</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.LAST_CONNECTION">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.LAST_CONNECTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Last connection</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.LOCATION">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.LOCATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Location</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.MAC">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.MAC</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>MAC</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.ORGANISATION">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.ORGANISATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.PRODUCTION_DATE">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.PRODUCTION_DATE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Production date</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.OVERVIEW.DEVICES.SERIAL_NUMBER">
+      <prop type="context">sysadmin.json.OVERVIEW.DEVICES.SERIAL_NUMBER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Serial number</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SAVE">
+      <prop type="context">sysadmin.json.SAVE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Save</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsTranslated</prop>
+        <seg>Enregistrer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SEARCH">
+      <prop type="context">sysadmin.json.SEARCH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Search</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.API_RESOURCE_NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.API_RESOURCE_NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Api resource already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.CLIENT_ID_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.CLIENT_ID_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Client already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.CURRENT_USER_CANNOT_BE_DELETED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.CURRENT_USER_CANNOT_BE_DELETED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Current user cannot be deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.CURRENT_USER_CANNOT_BE_DISABLED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.CURRENT_USER_CANNOT_BE_DISABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Current user cannot be disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.FORBIDDEN">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.FORBIDDEN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Forbidden</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.LAST_ORGANISATION_ADMIN_CANNOT_BE_DELETED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.LAST_ORGANISATION_ADMIN_CANNOT_BE_DELETED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User {{user}} is the last administrator of organisation. This user cannot be deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.NOT_FOUND">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.NOT_FOUND</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Page not found</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ONE_ACTIVE_ADMIN_REQUIRED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ONE_ACTIVE_ADMIN_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>At least one active administrator must be assigned to an organisation.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ONE_ENABLED_ADMIN_REQUIRED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ONE_ENABLED_ADMIN_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>All admins cannot be disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ORGANISATION_CANNOT_BE_DEPLOYED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ORGANISATION_CANNOT_BE_DEPLOYED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation cannot be deployed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ORGANISATION_NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ORGANISATION_NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ROLE_CANNOT_BE_MODIFIED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ROLE_CANNOT_BE_MODIFIED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role cannot be modified.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ROLE_CANNOT_BE_REMOVED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ROLE_CANNOT_BE_REMOVED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role cannot be removed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ROLE_ID_NONEXISTENT">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ROLE_ID_NONEXISTENT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role does not exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.ROLE_NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.ROLE_NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.UNAUTHORIZED">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.UNAUTHORIZED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Unauthorized</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsTranslated</prop>
+        <seg>Erreur de serveur. Non autorisée. CHANGED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SERVER_ERRORS.USER_EMAIL_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SERVER_ERRORS.USER_EMAIL_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User email already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.ADD_NEW">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.ADD_NEW</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add new scope</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.ADD_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.ADD_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>API resource is successfully added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.DISPLAY_NAME">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.DISPLAY_NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Display name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.DISPLAY_NAME_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.DISPLAY_NAME_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 0 and 200 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.EDIT_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.EDIT_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>API resource is successfully edited.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>New API resource</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.NAME_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.NAME_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 0 and 200 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.NAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.NAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.SCOPES">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.SCOPES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Scopes</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.SCOPE_NAME_EMPTY">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.SCOPE_NAME_EMPTY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Scope name is required.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCE.SCOPE_UNIQUE_NAME">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCE.SCOPE_UNIQUE_NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Scope with this name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.DELETE_API_RESOURCE">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.DELETE_API_RESOURCE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete API resource(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.DELETE_API_RESOURCE_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.DELETE_API_RESOURCE_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete API resource(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.DELETE_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.DELETE_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>API resource is successfully deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.DISPLAY_NAME">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.DISPLAY_NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Display name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.OPTIONS.ADD_API_RESOURCE">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.OPTIONS.ADD_API_RESOURCE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new API resource</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.OPTIONS.DELETE_SELECTED_API_RESOURCES">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.OPTIONS.DELETE_SELECTED_API_RESOURCES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected API resource(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.API_RESOURCES.SELECT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.API_RESOURCES.SELECT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You must select an API resource.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ADD_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ADD_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Client is successfully added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_CORS_ORIGINS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_CORS_ORIGINS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Allowed cors origins</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_CORS_ORIGINS_PLACEHOLDER">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_CORS_ORIGINS_PLACEHOLDER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Allowed cors origins (separate with ',')</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_GRAND_TYPES">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_GRAND_TYPES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Allowed grand types</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_SCOPES">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOWED_SCOPES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Allowed scopes</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOW_ACCESS_TOKENS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOW_ACCESS_TOKENS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Allow access tokens via browser</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOW_ACCESS_TOKENS_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ALLOW_ACCESS_TOKENS_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Allow access tokens via browser is required.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.EDIT_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.EDIT_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Client is successfully edited.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ID">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ID</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Id</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ID_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ID_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 0 and 200 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.ID_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.ID_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Id is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>New client</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 0 and 200 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.NAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.POST_LOGOUT_REDIRECT_URIS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.POST_LOGOUT_REDIRECT_URIS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Post logout redirect uris</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.POST_LOGOUT_REDIRECT_URIS_PLACEHOLDER">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.POST_LOGOUT_REDIRECT_URIS_PLACEHOLDER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Post logout redirect uris (separate with ',')</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.REDIRECT_URIS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.REDIRECT_URIS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Redirect uris</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.REDIRECT_URIS_PLACEHOLDER">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.REDIRECT_URIS_PLACEHOLDER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Redirect uris (separate with ',')</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.SECRETES">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.SECRETES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Secrets</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATION.SECRETES_PLACEHOLDER">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATION.SECRETES_PLACEHOLDER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Secrets (separate with ',')</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.ACTIVE">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.ACTIVE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.DELETE_CLIENT">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.DELETE_CLIENT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete client(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.DELETE_CLIENT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.DELETE_CLIENT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete client(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.DELETE_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.DELETE_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Client is successfully deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.ID">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.ID</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Id</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.OPTIONS.ADD_CLIENT">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.OPTIONS.ADD_CLIENT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new client</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.OPTIONS.DELETE_SELECTED_CLIENTS">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.OPTIONS.DELETE_SELECTED_CLIENTS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected client(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.SELECT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.CLIENT_APPLICATIONS.SELECT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You must select a client.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.BODY">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.BODY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>This is a test e-mail sent by SAUTER Cloud Administration. By receiving this e-mail it means your user email address and the e-mail SMTP settings are correct.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.CURRENT_USER_NO_EMAIL">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.CURRENT_USER_NO_EMAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Email address of user '{{username}}' is not defined. Please configure your email address before testing.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.EDIT_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.EDIT_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>E-mail is successfully edited.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.IS_AUTHENTICATION_ACTIVE">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.IS_AUTHENTICATION_ACTIVE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Authentication active</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Email settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.PASSWORD">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.PASSWORD</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.PASSWORD_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.PASSWORD_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SENDER">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SENDER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sender e-mail address</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SENDER_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SENDER_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sender must be valid</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SENDER_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SENDER_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sender is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SEND_TEST_EMAIL">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SEND_TEST_EMAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Send test e-mail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_PORT">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_PORT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMTP-Port</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_PORT_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_PORT_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMTP port must be valid</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_PORT_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_PORT_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMTP port is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_SERVER">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_SERVER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Outgoing mail server (SMTP)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_SERVER_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SMTP_SERVER_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Outgoing mail server is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.SUBJECT">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.SUBJECT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SAUTER Cloud Administration - Test e-mail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.TEST_EMAIL_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.TEST_EMAIL_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Test e-mail successfully sent.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.USERNAME">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.USERNAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.USERNAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.USERNAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Username is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.EMAIL_SETTINGS.USE_TLS">
+      <prop type="context">sysadmin.json.SETTINGS.EMAIL_SETTINGS.USE_TLS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Use TLS (STARTTLS)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MEMBERSHIP.EMAIL">
+      <prop type="context">sysadmin.json.SETTINGS.MEMBERSHIP.EMAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>e-Mail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MEMBERSHIP.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.MEMBERSHIP.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Memberships</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MEMBERSHIP.MOBILE_PHONE">
+      <prop type="context">sysadmin.json.SETTINGS.MEMBERSHIP.MOBILE_PHONE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Mobile phone</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MEMBERSHIP.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.MEMBERSHIP.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MEMBERSHIP.ONE_ADMIN_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.MEMBERSHIP.ONE_ADMIN_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>At least one administrator must be assigned to an organisation.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MEMBERSHIP.PERMISSION">
+      <prop type="context">sysadmin.json.SETTINGS.MEMBERSHIP.PERMISSION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Permission</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MEMBERSHIP.VALIDATE">
+      <prop type="context">sysadmin.json.SETTINGS.MEMBERSHIP.VALIDATE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Validate</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.ADD_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.ADD_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module is successfully added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.DESCRIPTION_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.DESCRIPTION_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description must be between 0 and 200 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.EDIT_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.EDIT_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module is successfully edited.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.ENABLED">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.ENABLED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Enabled</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.ICON">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.ICON</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Icon</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.ICON_DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.ICON_DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Icon is required. It is recommended to use a vectoriel icon (SVG).</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.ICON_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.ICON_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Icon is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.ID">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.ID</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Id</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.IDENTIFIER_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.IDENTIFIER_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Key must be in lower case and separated with '-' and/or '_'</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.KEY">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.KEY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Key</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.KEY_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.KEY_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Key already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.KEY_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.KEY_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Key must be between 0 and 20 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.KEY_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.KEY_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Key is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>New module</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.NAME_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.NAME_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 0 and 50 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULE.NAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.MODULE.NAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.ACTIVE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.ACTIVE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.DELETE_MODULE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.DELETE_MODULE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete module(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.DELETE_MODULE_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.DELETE_MODULE_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete module(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.DELETE_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.DELETE_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module is successfully deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.DISABLE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.DISABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>DISABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.DISABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.DISABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module is disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.ENABLE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.ENABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>ENABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.ENABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.ENABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module is enabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.ICON">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.ICON</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Icon</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.KEY">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.KEY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Key</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Modules</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.OPTIONS.ADD_MODULE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.OPTIONS.ADD_MODULE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new module</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.OPTIONS.DELETE_SELECTED_MODULES">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.OPTIONS.DELETE_SELECTED_MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected module(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.OPTIONS.DISABLE_SELECTED_MODULES">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.OPTIONS.DISABLE_SELECTED_MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Disable selected modules(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.OPTIONS.EDIT_MODULE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.OPTIONS.EDIT_MODULE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Edit a module</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.OPTIONS.ENABLE_SELECTED_MODULES">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.OPTIONS.ENABLE_SELECTED_MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Enable selected modules(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.MODULES.SELECT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.MODULES.SELECT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You must select a module.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ACTIVE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ACTIVE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ACTIVE_GLOBALLY">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ACTIVE_GLOBALLY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Active globally</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ADD_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ADD_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation is successfully added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DELETE_MEMBERSHIP">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DELETE_MEMBERSHIP</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete membership(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DELETE_MEMBERSHIP_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DELETE_MEMBERSHIP_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete membership(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DELETE_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DELETE_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Membership is successfully deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DEPLOY">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DEPLOY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Deploy organisation</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DEPLOY_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DEPLOY_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Do you want to deploy an organisation?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DESCRIPTION_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DESCRIPTION_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description must be between 0 and 200 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DISABLE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DISABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>DISABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DISABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DISABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Membership is disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.DISABLE_YOURSELF">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.DISABLE_YOURSELF</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You cannot disable yourself</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.EDIT_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.EDIT_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation is successfully edited.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.EMAIL">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.EMAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>e-Mail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ENABLE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ENABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>ENABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ENABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ENABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Membership is enabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>New organisation</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.LOGO">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.LOGO</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Logo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.LOGO_DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.LOGO_DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>It's recommended to use a logo with size of 60x70.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MOBILE_PHONE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MOBILE_PHONE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Mobile phone</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MODULE.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MODULE.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Module</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MODULES.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MODULES.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Modules</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.ADD_MODULE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.ADD_MODULE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new module</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.DELETE_SELECTED_MODULES">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.DELETE_SELECTED_MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected module(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.DISABLE_SELECTED_MODULES">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.DISABLE_SELECTED_MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Disable selected modules(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.EDIT_MODULE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.EDIT_MODULE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Edit a module</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.ENABLE_SELECTED_MODULES">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.MODULES.OPTIONS.ENABLE_SELECTED_MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Enable selected modules(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.NAME_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.NAME_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 1 and 50 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.NAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.NAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ONE_ACTIVE_ADMIN_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ONE_ACTIVE_ADMIN_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>At least one active administrator must be assigned to an organisation.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ONE_ADMIN_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ONE_ADMIN_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>At least one administrator must be assigned to an organisation.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ONE_ENABLED_ADMIN_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ONE_ENABLED_ADMIN_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>All admins cannot be disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.ADD_MEMBERSHIP">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.ADD_MEMBERSHIP</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new membership</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.DELETE_SELECTED_MEMBERSHIPS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.DELETE_SELECTED_MEMBERSHIPS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected membership(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.DISABLE_SELECTED_MEMBERSHIPS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.DISABLE_SELECTED_MEMBERSHIPS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Disable selected membership(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.ENABLE_SELECTED_MEMBERSHIPS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.OPTIONS.ENABLE_SELECTED_MEMBERSHIPS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Enable selected membership(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.ORGANISATION_MEMBERSHIP">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.ORGANISATION_MEMBERSHIP</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation Membership</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.PERMISSION">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.PERMISSION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Permission</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.PERMISSIONS.ADMIN">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.PERMISSIONS.ADMIN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Administrator</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.PERMISSIONS.NONE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.PERMISSIONS.NONE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>None</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.PERMISSIONS.USER">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.PERMISSIONS.USER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATION.SELECT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATION.SELECT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You must select a membership.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.ACTIVE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.ACTIVE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.0">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.0</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Not started</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.1">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.1</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>In progress</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.2">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.2</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Succeed</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.3">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.AZURE_DEPLOYMENT_STATUS.3</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Failed</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DELETE_ORGANISATION">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DELETE_ORGANISATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete organisation(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DELETE_ORGANISATION_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DELETE_ORGANISATION_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete an organisation(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DELETE_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DELETE_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation is successfully deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DEPLOY">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DEPLOY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Deploy</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DEPLOYMENT_STATUS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DEPLOYMENT_STATUS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Deployment status</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DISABLE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DISABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>DISABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.DISABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.DISABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation is disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.ENABLE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.ENABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>ENABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.ENABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.ENABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisation is enabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisations</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.ADD_ORGANISATION">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.ADD_ORGANISATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new organisation</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.DELETE_SELECTED_ORGANISATIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.DELETE_SELECTED_ORGANISATIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected organisation(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.DISABLE_SELECTED_ORGANISATIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.DISABLE_SELECTED_ORGANISATIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Disable selected organisation(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.ENABLE_SELECTED_ORGANISATIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.OPTIONS.ENABLE_SELECTED_ORGANISATIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Enable selected organisation(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.SELECT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.SELECT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You must select an organisation.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ORGANISATIONS.USERS">
+      <prop type="context">sysadmin.json.SETTINGS.ORGANISATIONS.USERS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Users</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.ADD_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.ADD_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role is successfully added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.DESCRIPTION_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.DESCRIPTION_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description must be between 0 and 100 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.EDIT_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.EDIT_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role is successfully edited.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>New role</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.NAME_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.NAME_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 4 and 40 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.NAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.NAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Permissions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.APIRESOURCES">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.APIRESOURCES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>API resources</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.AUDITTRAIL">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.AUDITTRAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Audit trail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.CLIENTS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.CLIENTS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.DEVICES">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.DEVICES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Devices</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.EMAILSERVERSETTINGS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.EMAILSERVERSETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>E-mail server settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.IDENTITYSETTINGS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.IDENTITYSETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Identity settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.INFORMATION">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.INFORMATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Information</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.MODULES">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.MODULES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Modules</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.NETWORKSETTINGS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.NETWORKSETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Network settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.ORGANISATIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.ORGANISATIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisations</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.ORGANISATIONSSETTINGS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.ORGANISATIONSSETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Organisations settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.ROLES">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.ROLES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Roles</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.SETTINGS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.SETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.SMSSERVERSETTINGS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.SMSSERVERSETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMS server settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.USERS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.USERS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Users</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.USERSANDROLES">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_LABELS.USERSANDROLES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Users and Roles</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLE.PERMISSION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.ROLE.PERMISSION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>At least one permission is required.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.DELETE_ADMIN_GUEST">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.DELETE_ADMIN_GUEST</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Default roles Administrator, Guest and None cannot be removed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.DELETE_ROLE">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.DELETE_ROLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete role(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.DELETE_ROLE_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.DELETE_ROLE_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete role(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.DELETE_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.DELETE_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role is successfully deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.DESCRIPTION">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.DESCRIPTION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Roles</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.OPTIONS.ADD_ROLE">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.OPTIONS.ADD_ROLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new role</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.OPTIONS.DELETE_SELECTED_ROLES">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.OPTIONS.DELETE_SELECTED_ROLES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected role(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.PERMISSIONS">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.PERMISSIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Permissions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.ROLES.SELECT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.ROLES.SELECT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You must select a role.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.ABBREVIATED">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.ABBREVIATED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Abbreviated</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.ADDRESS_RANGE">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.ADDRESS_RANGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Address Range</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.ADD_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.ADD_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMS settings are successfully added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.ALPHANUMERIC">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.ALPHANUMERIC</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Alphanumeric</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_NUMERIC_PLAN_INDICATOR">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_NUMERIC_PLAN_INDICATOR</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Bind Numeric Plan Indicator</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TRANSCEIVER">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TRANSCEIVER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>BIND_TRANSCEIVER (TRX)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TRANSMITTER">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TRANSMITTER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>BIND_TRANSMITTER (TX)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TYPE">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TYPE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Bind type</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TYPE_OF_NUMBER">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TYPE_OF_NUMBER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Bind Type Of Number</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TYPE_VALIDATION">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.BIND_TYPE_VALIDATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Bind type is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.CURRENT_USER_NO_SMS">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.CURRENT_USER_NO_SMS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Mobile phone of user '{{username}}' is not defined. Please configure your mobile phone before testing.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.DATA">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.DATA</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Data</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.ERMES">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.ERMES</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>ERMES</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.INTERNATIONAL">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.INTERNATIONAL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>International</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.INTERNET">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.INTERNET</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Internet (IP)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.ISDN">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.ISDN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>ISDN</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMS settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.LAND_MOBILE">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.LAND_MOBILE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Land Mobile</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.NATIONAL">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.NATIONAL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>National</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.NETWORK_SPECIFIC">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.NETWORK_SPECIFIC</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Network Specific</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.PASSWORD">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.PASSWORD</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.PASSWORD_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.PASSWORD_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.PORT">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.PORT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMPP port</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.PORT_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.PORT_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMPP port port must be valid</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.PORT_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.PORT_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>SMPP port is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.PRIVATE">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.PRIVATE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Private</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SENDER_NUMBER">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SENDER_NUMBER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sender number (Source address)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SENDER_NUMBER_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SENDER_NUMBER_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sender number must be valid</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SENDER_NUMBER_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SENDER_NUMBER_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Sender number is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SEND_TEST_SMS">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SEND_TEST_SMS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Send test SMS</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SERVER">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SERVER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Server</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SERVER_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SERVER_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Server is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SMS_CONTENT">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SMS_CONTENT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>This is a test SMS sent by SAUTER Cloud Administration.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SOURCE_NUMERIC_PLAN_INDICATOR">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SOURCE_NUMERIC_PLAN_INDICATOR</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Source Numeric Plan Indicator</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SOURCE_TYPE_OF_NUMBER">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SOURCE_TYPE_OF_NUMBER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Source Type Of Number</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SUBSCRIBER_NUMBER">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SUBSCRIBER_NUMBER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Subscriber Number</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.SYSTEM_TYPE">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.SYSTEM_TYPE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>System type</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.TELEX">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.TELEX</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Telex</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.TEST_SMS_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.TEST_SMS_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Test SMS successfully sent.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.UNKNOWN">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.UNKNOWN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Unknown</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.USERNAME">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.USERNAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Username (System Id)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.USERNAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.USERNAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Username is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.USE_OPTIONAL_SETTINGS">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.USE_OPTIONAL_SETTINGS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Use optional settings</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.SMS_SETTINGS.WAP_CLIENT_ID">
+      <prop type="context">sysadmin.json.SETTINGS.SMS_SETTINGS.WAP_CLIENT_ID</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>WAP Client Id</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.ADD_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.USER.ADD_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User is successfully added.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.ALT_PHONE_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.USER.ALT_PHONE_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Alternative mobile phone number must be between 0 and 40 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.ALT_PHONE_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.USER.ALT_PHONE_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Alternative mobile phone number must be valid</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.EDIT_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.USER.EDIT_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User is successfully edited.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.EMAIL">
+      <prop type="context">sysadmin.json.SETTINGS.USER.EMAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>e-Mail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.EMAIL_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.USER.EMAIL_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Email must be valid</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.EMAIL_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.USER.EMAIL_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Email is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.USER.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>New user</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.MOBILE_PHONE">
+      <prop type="context">sysadmin.json.SETTINGS.USER.MOBILE_PHONE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Mobile phone</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.MOBILE_PHONE_ALT">
+      <prop type="context">sysadmin.json.SETTINGS.USER.MOBILE_PHONE_ALT</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Alternative phone</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.MOBILE_PHONE_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.USER.MOBILE_PHONE_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Mobile phone number must be between 0 and 40 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.MOBILE_PHONE_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.USER.MOBILE_PHONE_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Mobile phone number must be valid</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.USER.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.NAME_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.USER.NAME_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.NAME_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.USER.NAME_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name must be between 4 and 40 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.NAME_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.USER.NAME_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.NOTIFICATIONS_LANGUAGE">
+      <prop type="context">sysadmin.json.SETTINGS.USER.NOTIFICATIONS_LANGUAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Notifications language</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.NOTIFICATIONS_LANGUAGE_PLACEHOLDER">
+      <prop type="context">sysadmin.json.SETTINGS.USER.NOTIFICATIONS_LANGUAGE_PLACEHOLDER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Select notifications language</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.NOTIFICATIONS_LANGUAGE_VALIDATION">
+      <prop type="context">sysadmin.json.SETTINGS.USER.NOTIFICATIONS_LANGUAGE_VALIDATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Notifications language is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.PASSWORD">
+      <prop type="context">sysadmin.json.SETTINGS.USER.PASSWORD</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.PASSWORD_VALIDATION_LENGTH">
+      <prop type="context">sysadmin.json.SETTINGS.USER.PASSWORD_VALIDATION_LENGTH</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password must be between 8 and 20 characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.PASSWORD_VALIDATION_PATTERN">
+      <prop type="context">sysadmin.json.SETTINGS.USER.PASSWORD_VALIDATION_PATTERN</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password must contain uppercase, lowercase and nonalphanumeric characters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.PASSWORD_VALIDATION_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.USER.PASSWORD_VALIDATION_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Password is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.PASSWORD_VERIFY">
+      <prop type="context">sysadmin.json.SETTINGS.USER.PASSWORD_VERIFY</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Verify password</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.PASSWORD_VERIFY_VALIDATION">
+      <prop type="context">sysadmin.json.SETTINGS.USER.PASSWORD_VERIFY_VALIDATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Passwords must match</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.ROLE">
+      <prop type="context">sysadmin.json.SETTINGS.USER.ROLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role:</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.ROLE_PLACEHOLDER">
+      <prop type="context">sysadmin.json.SETTINGS.USER.ROLE_PLACEHOLDER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Select role</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.ROLE_VALIDATION">
+      <prop type="context">sysadmin.json.SETTINGS.USER.ROLE_VALIDATION</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role is required</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.SEND_EMAIL">
+      <prop type="context">sysadmin.json.SETTINGS.USER.SEND_EMAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Send test e-mail</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.SEND_SMS">
+      <prop type="context">sysadmin.json.SETTINGS.USER.SEND_SMS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Send test SMS</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USER.USER_EMAIL_NOT_UNIQUE">
+      <prop type="context">sysadmin.json.SETTINGS.USER.USER_EMAIL_NOT_UNIQUE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User email already exists.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ACTIONS">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ACTIONS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ACTIVE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ACTIVE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ADD_DUPLICATE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ADD_DUPLICATE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User is duplicated.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ALL_ADMINS_WILL_BE_REMOVED">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ALL_ADMINS_WILL_BE_REMOVED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>All admins cannot be removed.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DELETE_ORGANISATION_USER_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DELETE_ORGANISATION_USER_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete this user? It has memberships in the next organisations: 
+ {{organisations}}.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DELETE_SUCCESS">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DELETE_SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User is successfully deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DELETE_USER">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DELETE_USER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete user(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DELETE_USER_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DELETE_USER_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to delete user(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DELETE_YOURSELF">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DELETE_YOURSELF</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You cannot delete yourself.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DISABLE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DISABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>DISABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DISABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DISABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User is disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DISABLE_USER">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DISABLE_USER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Disable user(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DISABLE_USER_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DISABLE_USER_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Are you sure you want to disable user(s)?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.DISABLE_YOURSELF">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.DISABLE_YOURSELF</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You cannot disable yourself.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.EMAIL">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.EMAIL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Email</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ENABLE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ENABLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>ENABLE</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ENABLED_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ENABLED_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User is enabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.LABEL">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.LABEL</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Users</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.LAST_ORGANISATION_ADMIN_CANNOT_BE_DELETED">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.LAST_ORGANISATION_ADMIN_CANNOT_BE_DELETED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>User {{user}} is the last administrator of organisation. This user cannot be deleted.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.MOBILE_PHONE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.MOBILE_PHONE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Mobile phone</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.NAME">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.NAME</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ONE_ENABLED_ADMIN_REQUIRED">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ONE_ENABLED_ADMIN_REQUIRED</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>All admins cannot be disabled.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.OPTIONS.ADD_USER">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.OPTIONS.ADD_USER</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Add a new user</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.OPTIONS.DELETE_SELECTED_USERS">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.OPTIONS.DELETE_SELECTED_USERS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Delete selected user(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.OPTIONS.DISABLE_SELECTED_USERS">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.OPTIONS.DISABLE_SELECTED_USERS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Disable selected user(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.OPTIONS.ENABLE_SELECTED_USERS">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.OPTIONS.ENABLE_SELECTED_USERS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Enable selected user(s)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.ROLE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.ROLE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Role</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SETTINGS.USERS.SELECT_MESSAGE">
+      <prop type="context">sysadmin.json.SETTINGS.USERS.SELECT_MESSAGE</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>You must select a user.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="sysadmin.json.SUCCESS">
+      <prop type="context">sysadmin.json.SUCCESS</prop>
+      <prop type="rowstatus">rsInUse</prop>
+      <tuv xml:lang="en-GB">
+        <seg>Success</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <prop type="status">tsNotTranslated</prop>
+        <seg></seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
