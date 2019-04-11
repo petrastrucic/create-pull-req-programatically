@@ -10,7 +10,7 @@
     <row id="AUDIT_KEYS.EMAIL_SETTINGS_MODIFIED">The SMTP server configuration have been changed.</row>
     <row id="AUDIT_KEYS.LAST_ORGANISATION_ADMIN_CANNOT_BE_DELETED">User is the only administrator in some organisation and therefore cannot be deleted.</row>
     <row id="AUDIT_KEYS.MODULE_ADDED">Module '{{module}}' has been added.</row>
-    <row id="AUDIT_KEYS.MODULE_DISABLED">Module '{{module}}' has been disabled.</row>
+    <row id="AUDIT_KEYS.MODULE_DISABLED">Module '{{module}}' has been sggfgsfgfsdisabled.</row>
     <row id="AUDIT_KEYS.MODULE_ENABLED">Module '{{module}}' has been activated.</row>
     <row id="AUDIT_KEYS.MODULE_MODIFIED">Module '{{module}}' has been modified.</row>
     <row id="AUDIT_KEYS.MODULE_REMOVED">Module '{{module}}' has been deleted.</row>
